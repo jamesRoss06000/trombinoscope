@@ -67,27 +67,27 @@
                 <li class="collection-item">
                     <div id="person2" class="person">
                         <a href="Alexis-Mathieu Hubert.html"><div id="photo2" class="photo"><img class="photo"
-                                src="Photos\Alexis.PNG" alt="Photo d'Alexis.PNG" /></div></a>
+                                src="Photos/Alexis.PNG" alt="Photo d'Alexis.PNG" /></div></a>
                         <p id="name2" class="name">Alexis-Mathieu Hubert</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person3" class="person">
-                        <a href="Anaëlle Alenda.html"><div id="photo3" class="photo"><img class="photo" src="Photos\Anaelle.PNG"
+                        <a href="Anaëlle Alenda.html"><div id="photo3" class="photo"><img class="photo" src="Photos/Anaelle.PNG"
                                 alt="Photo d'Anaëlle Alenda" /></div></a>
                         <p id="name3" class="name">Anaëlle Alenda</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person4" class="person">
-                        <a href="Anthony Bizien.html"><div id="photo4" class="photo"><img class="photo" src="Photos\Anthony.png"
+                        <a href="Anthony Bizien.html"><div id="photo4" class="photo"><img class="photo" src="Photos/Anthony.png"
                                 alt="Photo d'Anthony Bizien" /></div></a>
                         <p id="name4" class="name">Anthony Bizien</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person5" class="person">
-                        <a href="Antoine Guyader.html"><div id="photo5" class="photo"><img class="photo" src="Photos\Antoine.png"
+                        <a href="Antoine Guyader.html"><div id="photo5" class="photo"><img class="photo" src="Photos/Antoine.png"
                                 alt="Photo d'Antoine Guyader" /></div></a>
                         <p id="name5" class="name">Antoine Guyader</p>
                     </div>
@@ -95,7 +95,7 @@
                 <li class="collection-item">
                     <div id="person6" class="person">
                         <a href="Damien Chailloleau-Granato.html"><div id="photo6" class="photo"><img class="photo"
-                                src="Photos\Damien.png"
+                                src="Photos/Damien.png"
                                 alt="Photo de Damien Chailloleau-Granato" /></div></a>
                         <p id="name6" class="name">Damien Chailloleau-Granato</p>
                     </div>
@@ -103,13 +103,13 @@
                 <li class="collection-item">
                     <div id="person7" class="person">
                         <a href="Dilyana Stéfanova.html"><div id="photo7" class="photo"><img class="photo"
-                                src="Photos\Dilyana.png" alt="Photo de Dilyana Stéfanova" /></div></a>
+                                src="Photos/Dilyana.png" alt="Photo de Dilyana Stéfanova" /></div></a>
                         <p id="name7" class="name">Dilyana Stefanova</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person8" class="person">
-                        <a href="Dimitri Gaillot.html"><div id="photo8" class="photo"><img class="photo" src="Photos\Dimitri.png"
+                        <a href="Dimitri Gaillot.html"><div id="photo8" class="photo"><img class="photo" src="Photos/Dimitri.png"
                                 alt="Photo de Dimitri Gaillot" /></div></a>
                         <p id="name8" class="name">Dimitri Gaillot</p>
                     </div>
@@ -117,34 +117,34 @@
                 <li class="collection-item">
                     <div id="person9" class="person">
                         <a href="Isabelle De La Tour.html"><div id="photo9" class="photo"><img class="photo"
-                                src="Photos\Isabelle.png" alt="Photo d'Isabelle De La Tour" /></div></a>
+                                src="Photos/Isabelle.png" alt="Photo d'Isabelle De La Tour" /></div></a>
                         <p id="name9" class="name">Isabelle De La Tour</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person10" class="person">
-                        <a href="James Ross.html"><div id="photo10" class="photo"><img class="photo" src="Photos\Jimmy.png"
+                        <a href="James Ross.html"><div id="photo10" class="photo"><img class="photo" src="Photos/Jimmy.png"
                                 alt="Photo de James Ross" /></div></a>
                         <p id="name10" class="name">James Ross</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person11" class="person">
-                        <a href="Jonathan Bari.html"><div id="photo11" class="photo"><img class="photo" src="Photos\Jonathan.png"
+                        <a href="Jonathan Bari.html"><div id="photo11" class="photo"><img class="photo" src="Photos/Jonathan.png"
                                 alt="Photo de Jonathan Bari" /></div></a>
                         <p id="name11" class="name">Jonathan Bari</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person12" class="person">
-                        <a href="Magali Martin.html"><div id="photo12" class="photo"><img class="photo" src="Photos\Magali.png"
+                        <a href="Magali Martin.html"><div id="photo12" class="photo"><img class="photo" src="Photos/Magali.png"
                                 alt="Photo de Magali Martin" /></div></a>
                         <p id="name12" class="name">Magali Martin</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person13" class="person">
-                        <a href="Mariana Moron.html"><div id="photo13" class="photo"><img class="photo" src="Photos\Mariana.png"
+                        <a href="Mariana Moron.html"><div id="photo13" class="photo"><img class="photo" src="Photos/Mariana.png"
                                 alt="Photo de Mariana Moron" /></div></a>
                         <p id="name13" class="name">Mariana Moron</p>
                     </div>
@@ -152,21 +152,21 @@
                 <li class="collection-item">
                     <div id="person14" class="person">
                         <a href="Marie Amandine Délalondre.html"><div id="photo14" class="photo"><img class="photo"
-                                src="Photos\Marie.png"
+                                src="Photos/Marie.png"
                                 alt="Photo de Marie Amandine Délalondre" /></div></a>
                         <p id="name14" class="name">Marie Amandine Délalondre</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person15" class="person">
-                        <a href="Maxence Wilmes.html"><div id="photo15" class="photo"><img class="photo" src="Photos\Max.png"
+                        <a href="Maxence Wilmes.html"><div id="photo15" class="photo"><img class="photo" src="Photos/Max.png"
                                 alt="Photo de Maxence Wilmes" /></div></a>
                         <p id="name15" class="name">Maxence Wilmes</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person16" class="person">
-                        <a href="Radhwa Marzouk.html"><div id="photo16" class="photo"><img class="photo" src="Photos\Radhwa.png"
+                        <a href="Radhwa Marzouk.html"><div id="photo16" class="photo"><img class="photo" src="Photos/Radhwa.png"
                                 alt="Photo de Radhwa Marzouk" /></div></a>
                         <p id="name16" class="name">Radhwa Marzouk</p>
                     </div>
@@ -174,20 +174,20 @@
                 <li class="collection-item">
                     <div id="person17" class="person">
                         <a href="Sébastian Boulanger.html"><div id="photo17" class="photo"><img class="photo"
-                                src="Photos\Sebastian.png" alt="Photo de Sébastian Boulanger" /></div></a>
+                                src="Photos/Sebastian.png" alt="Photo de Sébastian Boulanger" /></div></a>
                         <p id="name17" class="name">Sébastien Boulanger</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person18" class="person">
-                        <a href="Sophie Raveau.html"><div id="photo18" class="photo"><img class="photo" src="Photos\Sophie.png"
+                        <a href="Sophie Raveau.html"><div id="photo18" class="photo"><img class="photo" src="Photos/Sophie.png"
                                 alt="Photo de Sophie Raveau" /></div></a>
                         <p id="name18" class="name">Sophie Raveau</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person19" class="person">
-                        <a href="Tim Robb.html"><div id="photo19" class="photo"><img class="photo" src="Photos\Tim.png"
+                        <a href="Tim Robb.html"><div id="photo19" class="photo"><img class="photo" src="Photos/Tim.png"
                                 alt="Photo de Tim Robb" /></div></a>
                         <p id="name19" class="name">Tim Robb</p>
                     </div>
