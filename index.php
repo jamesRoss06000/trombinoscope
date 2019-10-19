@@ -67,13 +67,13 @@
                 <li class="collection-item">
                     <div id="person2" class="person">
                         <a href="Alexis-Mathieu Hubert.html"><div id="photo2" class="photo"><img class="photo"
-                                src="Photos\Alexis.png" alt="Photo d'Alexis.PNG" /></div></a>
+                                src="Photos\Alexis.PNG" alt="Photo d'Alexis.PNG" /></div></a>
                         <p id="name2" class="name">Alexis-Mathieu Hubert</p>
                     </div>
                 </li>
                 <li class="collection-item">
                     <div id="person3" class="person">
-                        <a href="Anaëlle Alenda.html"><div id="photo3" class="photo"><img class="photo" src="Photos\Anaelle.png"
+                        <a href="Anaëlle Alenda.html"><div id="photo3" class="photo"><img class="photo" src="Photos\Anaelle.PNG"
                                 alt="Photo d'Anaëlle Alenda" /></div></a>
                         <p id="name3" class="name">Anaëlle Alenda</p>
                     </div>
