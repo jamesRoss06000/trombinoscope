@@ -16,7 +16,7 @@
                 <button id="modal-btn" class="button"><img id="logo" src="ics_logo2019.png" alt="Logo ICS" /></button>
                 <div class="jesaispas">
                 <ul id="navbar">
-                <li class="navbar-line"><b><a href="Yearbook_Home_Page.html">All Trainees</a></b></li>
+                <li class="navbar-line"><b><a href="index.php">All Trainees</a></b></li>
                 <li class="navbar-dropdown">
                     <b><a href="" class="dropdown-btn">Groups</a></b>
                     <div class="dropdown-content">
