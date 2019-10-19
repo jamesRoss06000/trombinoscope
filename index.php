@@ -59,8 +59,8 @@
                 </li>
                 <li class="collection-item">
                     <div class="person">
-                        <a href="Abdellatif El Mandili.html"><div id="photo1" class="photo"><img class="photo" src="Photos/Abde.PNG" 
-                                alt="Photo d'Abdellatif El Mandili"/></div></a>
+                        <a href="Abdellatif El Mandili.html"><div id="photo1" class="photo"><img class="photo" 
+                        src="Photos/Abde.PNG" alt="Photo d'Abdellatif El Mandili"/></div></a>
                         <p id="name1" class="name">Abdellatif El Mandili</p>
                     </div>
                 </li>
