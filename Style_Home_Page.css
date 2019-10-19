@@ -1,0 +1,354 @@
+﻿*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+hr{
+    color:white;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 25%;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+ul #names{
+    margin: auto;
+}
+
+#body {
+    margin: auto;   
+}
+
+.photo:hover {
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+    transform: scale(1.05)
+    }
+
+#header {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.person{
+    border: solid black 1px;
+    width:250px;
+    margin-bottom:5px;
+}
+
+.name{
+    text-align:center;
+    text-decoration-line:underline;
+    color:white;
+}
+
+#wrapper{
+    background-color:black;
+}
+
+#logo{
+    max-width:80%;
+    min-width: 250px;
+    border-radius:0;
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    position: relative;
+    animation:heading;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes heading {
+    0% {top:-50px;}
+    100% {top:5px; }
+}
+
+#title{
+    color:white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top:35px;
+    text-decoration-style: wavy;
+    text-align:right;
+    margin-right:10px;
+    margin-top:87px;
+    padding-bottom:0; 
+}
+
+/* Body added*/
+#body li {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    }
+
+/* 
+#body{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}*/
+
+
+#navbar{
+    display:inline;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:none;
+    overflow:hidden;
+    grid-column:2/3;
+    align-items:center; 
+    animation:navbar;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+}
+@keyframes navbar {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#navbar li{
+    float:left;
+}
+
+li.navbar-line a, li.navbar-dropdown a, a.dropdown-btn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+ }
+
+li.navbar-line a:hover, li.navbar-dropdown a:hover, a.dropdown-btn:hover{
+    background-color:lightslategray;
+    color:black;
+}
+
+li.navbar-dropdown{
+        display:inline-block
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: black;
+    border: solid ghostwhite 1px;
+    border-radius:5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+ }
+
+.dropdown-content a:hover{
+    background-color:lightgray;
+
+}
+
+.navbar-dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.navbar-line, .navbar-dropdown {
+        border: solid ghostwhite 1px;
+        border-radius:5px;
+} 
+
+.navbar-line{
+    border-right:none;
+}
+
+
+#modal-btn{
+    background: black;
+    width: 30%;
+    min-width: 270px;
+    margin-bottom: 10px;
+    height:auto;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+  
+  .modal-content {
+    margin: 10% auto;
+    width: 50%;
+    min-width: 350px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+
+.modal-header {
+    background: black;
+    padding: 15px;
+    padding-left: 37px;
+    color: white;
+    border-top-right-radius: 15px; 
+    border-top-left-radius: 15px;
+
+}
+
+.modal-body {
+    padding: 10px 20px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    line-height: 10px;
+}
+.modal-body p {
+    padding: 10px 20px;
+    background: white;
+    font-size: 20px;
+}
+
+  .close {
+    color: grey;
+    float: right;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+#filterInput {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px ;
+    width: 20%;
+    min-width: 200px;
+    height: 48px;
+}
+
+.jesaispas {
+    background-color: none;
+    width: 70%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer p {
+    color: white;
+    width: 100% ;
+    text-align: center;
+}
+
+#photo1:hover {
+    content: url("Photos/abde2.PNG");
+}
+#photo2:hover {
+    content: url("Photos/alexis2.PNG");
+}
+#photo3:hover {
+    content: url("Photos/anaelle2.PNG");
+}
+#photo4:hover {
+    content: url("Photos/anthony2.PNG");
+}#photo5:hover {
+    content: url("Photos/antoine2.PNG");
+}
+#photo6:hover {
+    content: url("Photos/damien2.PNG");
+}#photo7:hover {
+    content: url("Photos/dilyana2.PNG");
+}
+#photo8:hover {
+    content: url("Photos/dimitri2.PNG");
+}#photo9:hover {
+    content: url("Photos/isabelle2.PNG");
+}
+#photo10:hover {
+    content: url("Photos/jimmy2.PNG");
+}#photo11:hover {
+    content: url("Photos/jonathan2.PNG");
+}
+#photo12:hover {
+    content: url("Photos/magali2.PNG");
+}#photo13:hover {
+    content: url("Photos/mariana2.PNG");
+}
+#photo14:hover {
+    content: url("Photos/marie2.PNG");
+}#photo15:hover {
+    content: url("Photos/max2.PNG");
+}
+#photo16:hover {
+    content: url("Photos/radhwa2.PNG");
+}#photo17:hover {
+    content: url("Photos/sebastian2.PNG");
+}
+#photo18:hover {
+    content: url("Photos/sophie2.PNG");
+}#photo19:hover {
+    content: url("Photos/tim2.PNG");
+}
+#photo20:hover {
+    content: url("Photos/younes2.PNG");
+}
+
+
+@media only screen and (max-width: 1050px) {
+    #body, ul {
+        max-width: 760px;
+        padding-left: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #body, ul {
+        max-width: 250px;
+        padding-left: 0;
+        margin: auto;
+    }
+}

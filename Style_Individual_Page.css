@@ -1,0 +1,225 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+hr {
+    color: white;
+}
+
+#photoeval {
+    width: 100%;
+    border-radius: 25%;
+    opacity: 1;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.evaluation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photoeval {
+    width: 33%;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 1;
+    animation: photoeval;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes photoeval {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.competences {
+    width: 60%;
+}
+
+.competences, .front-end, .back-end {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+}
+
+#header {
+    display: flex;
+    min-width: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.name {
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+}
+
+#wrapper {
+    background-color: black;
+}
+
+#logo {
+    width: 30%;
+    height: 50px;
+    min-width: 250px;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {
+        top: -50px;
+    }
+    100% {
+        top: 5px;
+    }
+}
+
+#navbar {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    min-width: 202px;
+    overflow: hidden;
+    grid-column: 2/3;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+li {
+    float: left;
+}
+
+li.navbar-line a, li.navbar-dropdown a, a.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-line a:hover, li.navbar-dropdown a:hover, a.dropdown-btn:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+li.navbar-dropdown {
+    display: inline-block
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: black;
+    border: solid ghostwhite 1px;
+    border-radius: 5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+
+.navbar-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-line, .navbar-dropdown {
+    border: solid ghostwhite 1px;
+    border-radius: 5px;
+}
+
+.navbar-line {
+    border-right: none;
+}
+
+#myProgress1, #myProgress2, #myProgress3, #myProgress4, #myProgress5, #myProgress6, #myProgress7, #myProgress8 {
+    width: 100%;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#myBar1, #myBar2, #myBar3, #myBar4, #myBar5, #myBar6, #myBar7, #myBar8 {
+    width: 0.1%;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.competence {
+    margin-top: 5px;
+}
+
+.container {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 30px;
+}
+
+.container p {
+    padding-left: 10px;
+}
+
+#humeures {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    clear: both;
+}
+
+@media only screen and (max-width: 1000px) {
+    .photoeval, .competences {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .competences {
+        width: 90%;
+    }
+}
